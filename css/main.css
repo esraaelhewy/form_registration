@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Inter", sans-serif;
+    background-color: #121826;
+    padding:100px;
+}
+.container{
+    width:50%;
+    border:1px solid #A1A1A9;
+    background-color: #212936;
+    border-radius: 10px;
+    padding:16px;
+}
+.container > p{
+    font-size:  1.25rem;
+    font-weight: bold;
+    color:#E5E7EB;
+}
+.container > form label{
+    color:#A1A1A9;
+    font-size:  0.875rem;
+}
+.container > form input{
+    border-radius: 10px;
+    width:90%;
+    background-color:#212936 ;
+    border: none;
+    border:1px solid #A1A1A9;
+    padding:8px;
+    margin-bottom:7px;
+}
+.container > form input[placeholder] {
+    font-size: 0.75rem;
+}
+.container > form .error {
+        color: red;
+        font-size: 0.9em;
+    }
+.container >form  div{
+    text-align: center;
+}
+.container > form div button{
+    border:none;
+    background-color: #7649e0;
+    color:#E5E7EB;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 14px;
+    padding:10px 30px;
+    margin: 10px 0px;
+    width:30%
+}
+
+.footer{
+    text-align: center;
+    margin:15px 0px 15px -150px;
+    color: #A1A1A9;
+    font-size: 14px;
+}
+.footer .span span{
+    margin-right:20px
+}
+.footer .span i{
+    margin:5px;
+}
+.topic > input{
+    margin:10px 0px
+}
+.topic > input[value]{
+    color:#E5E7EB
+}
+.checkinp{
+    background-color: #7649e0 !important;
+    color:#E5E7EB;
+}
+#namesum , #emailsum, #top1 , #top2{
+    color:#E5E7EB;
+    font-weight: bold;
+}
+#top1 , #top2{
+    margin-left:30px
+}
+
+@media (max-width:1024px) {
+    .container{
+        width:70%;
+        padding:10px;
+    }
+    .container > form input{
+        padding:5px;
+        margin-bottom:5px;
+    }
+    .container > form div button{
+        width:60%
+    }
+}
+
+@media (max-width:800px) {
+    .container{
+        width:95%;
+    }
+    .container > form input{
+        padding:5px;
+        margin-bottom:5px;
+    }
+    .container > form div button{
+        width:80%
+    }
+    .footer{
+        text-align: center;
+        margin:20px 0px;
+        color: #A1A1A9;
+        font-size: 14px;
+    }
+}
